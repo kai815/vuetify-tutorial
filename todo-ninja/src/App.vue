@@ -1,9 +1,10 @@
 <template>
   <v-app>
-    <v-app-bar
+    <v-toolbar
       app
-      color="primary"
       dark
+      class="indigo"
+      height="150"
     >
       <div class="d-flex align-center">
         <v-img
@@ -35,7 +36,7 @@
         <span class="mr-2">Latest Release</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
-    </v-app-bar>
+    </v-toolbar>
 
     <v-content>
       <HelloWorld/>
